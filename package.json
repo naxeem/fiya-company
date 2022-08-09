@@ -1,0 +1,14 @@
+{
+  "name": "@naxeem/fiya-company",
+  "version": "1.0.0",                     
+  "description": "Company profile website template",
+  "author": "@naxeem",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch",
+    "prod": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --minify"
+  }
+}
