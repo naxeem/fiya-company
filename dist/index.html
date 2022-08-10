@@ -11,6 +11,7 @@
   <title>Fiya Company</title>
 </head>
 <body>
+  <!-- HEADER:Start ---------------------- -->
   <header>
     <div class="flex items-center relative max-w-7xl mx-auto px-4 py-6 sm:px-6 md:space-x-10 lg:px-8">
       <div class="flex-grow">
@@ -26,7 +27,7 @@
       </nav>
       <div class="md:hidden text-gray-700">
         <span class="sr-only">Open menu</span>
-        <label for="open-menu">
+        <label for="open-menu" role="button">
           <svg class="h-6 w-6 fill-current cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
@@ -40,7 +41,7 @@
                 <svg viewBox="0 0 170 41" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M51.8601 28.138H63.8121V24.538H56.1081V10.978H51.8601V28.138Z" class="cneutral" fill="#340E0E"></path> <path d="M70.8932 25.738C69.1892 25.738 68.3012 24.25 68.3012 22.018C68.3012 19.786 69.1892 18.274 70.8932 18.274C72.5972 18.274 73.5092 19.786 73.5092 22.018C73.5092 24.25 72.5972 25.738 70.8932 25.738ZM70.9172 28.522C74.8772 28.522 77.4692 25.714 77.4692 22.018C77.4692 18.322 74.8772 15.514 70.9172 15.514C66.9812 15.514 64.3412 18.322 64.3412 22.018C64.3412 25.714 66.9812 28.522 70.9172 28.522Z" class="cneutral" fill="#340E0E"></path> <path d="M84.3237 32.386C86.1477 32.386 87.7557 31.978 88.8357 31.018C89.8197 30.13 90.4677 28.786 90.4677 26.938V15.85H86.7237V17.17H86.6757C85.9557 16.138 84.8517 15.49 83.2197 15.49C80.1717 15.49 78.0597 18.034 78.0597 21.634C78.0597 25.402 80.6277 27.466 83.3877 27.466C84.8757 27.466 85.8117 26.866 86.5317 26.05H86.6277V27.274C86.6277 28.762 85.9317 29.626 84.2757 29.626C82.9797 29.626 82.3317 29.074 82.1157 28.426H78.3237C78.7077 30.994 80.9397 32.386 84.3237 32.386ZM84.2997 24.562C82.8357 24.562 81.8757 23.362 81.8757 21.514C81.8757 19.642 82.8357 18.442 84.2997 18.442C85.9317 18.442 86.7957 19.834 86.7957 21.49C86.7957 23.218 86.0037 24.562 84.2997 24.562Z" class="cneutral" fill="#340E0E"></path> <path d="M98.166 25.738C96.462 25.738 95.574 24.25 95.574 22.018C95.574 19.786 96.462 18.274 98.166 18.274C99.87 18.274 100.782 19.786 100.782 22.018C100.782 24.25 99.87 25.738 98.166 25.738ZM98.19 28.522C102.15 28.522 104.742 25.714 104.742 22.018C104.742 18.322 102.15 15.514 98.19 15.514C94.254 15.514 91.614 18.322 91.614 22.018C91.614 25.714 94.254 28.522 98.19 28.522Z" class="cneutral" fill="#340E0E"></path> <path d="M105.884 28.138H109.796V15.85H105.884V28.138ZM105.884 14.146H109.796V10.978H105.884V14.146Z" class="cneutral" fill="#340E0E"></path> <path d="M111.494 32.194H115.406V26.866H115.454C116.222 27.898 117.35 28.522 118.934 28.522C122.15 28.522 124.286 25.978 124.286 21.994C124.286 18.298 122.294 15.49 119.03 15.49C117.35 15.49 116.15 16.234 115.31 17.338H115.238V15.85H111.494V32.194ZM117.926 25.498C116.246 25.498 115.286 24.13 115.286 22.138C115.286 20.146 116.15 18.634 117.854 18.634C119.534 18.634 120.326 20.026 120.326 22.138C120.326 24.226 119.414 25.498 117.926 25.498Z" class="cneutral" fill="#340E0E"></path> <path d="M130.655 28.522C133.871 28.522 136.247 27.13 136.247 24.442C136.247 21.298 133.703 20.746 131.543 20.386C129.983 20.098 128.591 19.978 128.591 19.114C128.591 18.346 129.335 17.986 130.295 17.986C131.375 17.986 132.119 18.322 132.263 19.426H135.863C135.671 17.002 133.799 15.49 130.319 15.49C127.415 15.49 125.015 16.834 125.015 19.426C125.015 22.306 127.295 22.882 129.431 23.242C131.063 23.53 132.551 23.65 132.551 24.754C132.551 25.546 131.807 25.978 130.631 25.978C129.335 25.978 128.519 25.378 128.375 24.154H124.679C124.799 26.866 127.055 28.522 130.655 28.522Z" class="cneutral" fill="#340E0E"></path> <path d="M141.561 28.498C143.265 28.498 144.345 27.826 145.233 26.626H145.305V28.138H149.049V15.85H145.137V22.714C145.137 24.178 144.321 25.186 142.977 25.186C141.729 25.186 141.129 24.442 141.129 23.098V15.85H137.241V23.914C137.241 26.65 138.729 28.498 141.561 28.498Z" class="cneutral" fill="#340E0E"></path> <path d="M150.75 28.138H154.662V21.25C154.662 19.786 155.382 18.754 156.606 18.754C157.782 18.754 158.334 19.522 158.334 20.842V28.138H162.246V21.25C162.246 19.786 162.942 18.754 164.19 18.754C165.366 18.754 165.918 19.522 165.918 20.842V28.138H169.83V20.146C169.83 17.386 168.438 15.49 165.654 15.49C164.07 15.49 162.75 16.162 161.79 17.65H161.742C161.118 16.33 159.894 15.49 158.286 15.49C156.51 15.49 155.334 16.33 154.566 17.602H154.494V15.85H150.75V28.138Z" class="cneutral" fill="#340E0E"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M20.6841 40.138C31.7298 40.138 40.6841 31.1837 40.6841 20.138C40.6841 9.09234 31.7298 0.138031 20.6841 0.138031C9.63837 0.138031 0.684082 9.09234 0.684082 20.138C0.684082 31.1837 9.63837 40.138 20.6841 40.138ZM26.9234 9.45487C27.2271 8.37608 26.1802 7.73816 25.2241 8.41933L11.8772 17.9276C10.8403 18.6663 11.0034 20.138 12.1222 20.138L15.6368 20.138V20.1108H22.4866L16.9053 22.0801L14.4448 30.8212C14.1411 31.9 15.1879 32.5379 16.1441 31.8567L29.491 22.3485C30.5279 21.6098 30.3647 20.138 29.246 20.138L23.9162 20.138L26.9234 9.45487Z" class="ccustom" fill="#ea580e"></path> </svg>
               </span>
             </a>
-            <label for="open-menu" class="text-gray-700">
+            <label for="open-menu" class="text-gray-700" role="button">
               <span class="sr-only">Close menu</span>
               <svg class="h-6 w-6 fill-current cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -56,200 +57,208 @@
       </div>
     </div>
   </header>
-  <section class="relative mb-5 md:mb-8">
-    <div class="absolute inset-0">
-      <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1578474005126-89909099fed6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="People working on laptops">
-      <div class="absolute inset-0 bg-orange-400 mix-blend-multiply"></div>
-    </div>
-    <div class="relative max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-      <div class="max-w-lg sm:max-w-2xl">
-        <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-          <span class="block text-white leading-none">Motorcycle repair <span class="text-orange-200">and customization</span></span>
-        </h1>
-        <p class="mt-6 text-xl text-white">Bear with me, Marty, all of your questions will be answered. Roll tape, we'll proceed. You bet. You'll find out. Watch this. Not me, the car, the car. My calculations are correct, when this baby hits eighty-eight miles.</p>
-        <div class="mt-10">
-          <a href="#" class="px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-600 hover:bg-orange-700 sm:px-8">Contact us</a>
-        </div>
+  <main class="space-y-10 lg:space-y-16">
+    <!-- BANNER:Start ---------------------- -->
+    <section class="relative">
+      <div class="absolute inset-0">
+        <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1578474005126-89909099fed6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="People working on laptops">
+        <div class="absolute inset-0 bg-orange-400 mix-blend-multiply"></div>
       </div>
-    </div>
-  </section>
-  <section class="w-full p-5 max-w-7xl mx-auto py-10 md:py-16">
-    <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">Services</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14 sm:gap-10">
-      <div>
-        <h3 class="space-y-3">
-          <span class="w-8 h-8 flex items-center justify-center rounded-full bg-orange-600">
-            <span class="w-4 h-4 text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 234.87 234.87" style="enable-background:new 0 0 234.866 234.866" xml:space="preserve">
-                <path d="M218.33 16.57A56.07 56.07 0 0 0 178.42.04a56.07 56.07 0 0 0-39.91 16.54c-22.01 22-22 57.8 0 79.82a56.44 56.44 0 0 0 16.46 11.4c.86.35 1.7.75 2.58 1.07.16.06.3.16.46.23a56.38 56.38 0 0 0 60.32-12.7 56.06 56.06 0 0 0 16.53-39.91 56.08 56.08 0 0 0-16.53-39.91zm-7.21 51.46L189.96 89.2a5.38 5.38 0 0 1-5.2 1.39l-28.89-7.74a5.38 5.38 0 0 1-3.8-3.8l-7.73-28.9a5.37 5.37 0 0 1 1.4-5.19l21.14-21.15a5.37 5.37 0 0 1 5.2-1.4l28.89 7.74a5.4 5.4 0 0 1 3.8 3.8l7.74 28.9a5.37 5.37 0 0 1-1.4 5.2z"/>
-                <path d="m172.29 33.59-16.76 16.77 6.13 22.89 22.9 6.14 16.76-16.76-6.14-22.91zM20.35 211.87c-.41 0-1.22.1-1.9.78a2.69 2.69 0 1 0 1.9-.79z"/>
-                <path d="M128.84 103.22a66.18 66.18 0 0 1-10.56-13.77L3.65 204.08c-.13.39-.31.76-.54 1.1a19.28 19.28 0 0 0 2.5 24.11c6.31 6.3 16.78 7.35 24.17 2.48.34-.22.7-.4 1.09-.55l1.87-1.86a.76.76 0 0 1 .07-.07l.07-.07 113.44-113.44a66.09 66.09 0 0 1-17.48-12.56zM29.86 224.06a13.39 13.39 0 0 1-9.51 3.93c-3.59 0-6.96-1.4-9.5-3.93a13.46 13.46 0 0 1-.01-19c5.1-5.1 13.94-5.08 19-.01a13.45 13.45 0 0 1 .02 19z"/>
-              </svg>
-            </span>
-          </span>
-          <span class="block text-gray-800 text-xl lg:text-2xl font-semibold">Full-service Motorcycle Maintanance</span>
-        </h3>
-        <p class="text-lg mt-4 text-gray-600">Right, I got it. Right check, Doc. I guess you guys for that yet. But your kids are gonna love it.</p>
-        <ul class="mt-8 space-y-4">
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">Well, good luck you guys.</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">I almost forgot, Jennifer Parker called.</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">Well, they're bigger than me.</span>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="space-y-3">
-          <span class="w-8 h-8 flex items-center justify-center rounded-full bg-orange-600">
-            <span class="w-4 h-4 text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 512.01 512.01" style="enable-background:new 0 0 512.007 512.007" xml:space="preserve">
-                <path d="m280.1 43 43-43L512 188.9l-43 43zM256.8 66.31l-87.21 87.22 62.75 62.75L66.98 381.65a65.04 65.04 0 0 0-47.9 19.03 65.3 65.3 0 0 0 0 92.25 65.03 65.03 0 0 0 46.12 19.08c16.7 0 33.41-6.36 46.13-19.08a65.04 65.04 0 0 0 19.03-47.9l165.37-165.36 62.75 62.75 87.22-87.21L256.8 66.3zM88.03 469.63a32.32 32.32 0 0 1-45.66 0 32.32 32.32 0 0 1 0-45.65 32.18 32.18 0 0 1 22.83-9.44c8.27 0 16.53 3.15 22.83 9.44a32.32 32.32 0 0 1 0 45.65zm234.73-256.27a17.05 17.05 0 1 1-24.11-24.1 17.05 17.05 0 0 1 24.11 24.1z"/>
-              </svg>
-            </span>
-          </span>
-          <span class="block text-gray-800 text-xl lg:text-2xl font-semibold">Engine Work and Rebuilds</span>
-        </h3>
-        <p class="text-lg mt-4 text-gray-600">What, well you mean like a date? Brown, Brown, Brown, Brown, Brown, great, you're alive.</p>
-        <ul class="mt-8 space-y-4">
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">That's George McFly? Believe me, Marty.</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">Doc, look, all we need is a little plutonium.</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">Pretty Mediocre photographic fakery.</span>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="space-y-3">
-          <span class="w-8 h-8 flex items-center justify-center rounded-full bg-orange-600">
-            <span class="w-4 h-4 text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 479.79 479.79" style="enable-background:new 0 0 479.79 479.79" xml:space="preserve">
-                <path d="M478.4 116.62a11.01 11.01 0 0 0-18.76-6.85l-62.02 62.01-68.74-21.77-21.77-68.74 62.01-62.02A11.02 11.02 0 0 0 362.27.48a127.38 127.38 0 0 0-101.25 36.88c-36.54 36.55-46.22 89.92-29.08 135.4a93.82 93.82 0 0 0-5.55 5.06l-207 195.33-.23.22a62.52 62.52 0 0 0 0 88.31c24.35 24.34 63.67 24.05 88.02-.3l.3-.3L301.1 252.46a73.12 73.12 0 0 0 4.95-5.54c45.5 17.17 98.9 7.52 135.48-29.05a127.42 127.42 0 0 0 36.88-101.25zM75.99 435.38a22.96 22.96 0 1 1-32.47-32.47 22.96 22.96 0 0 1 32.47 32.47z"/>
-              </svg>
-            </span>
-          </span>
-          <span class="block text-gray-800 text-xl lg:text-2xl font-semibold">Motorcycle Customization</span>
-        </h3>
-        <p class="text-lg mt-4 text-gray-600">So anyway, George, now Lorraine, she really likes you. She told me to tell you that she wants.</p>
-        <ul class="mt-8 space-y-4">
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">Sorry about your barn. Uh.</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-6 h-6 text-orange-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <span class="text-gray-600 text-lg">What do kids do in the fifties.</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            
-            <span class="text-gray-600 text-lg">Marty, why are you so nervous.</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="w-full p-5 max-w-7xl mx-auto py-10 md:py-16">
-    <!-- <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">About</h2> -->
-    <div class="flex flex-wrap flex-col-reverse md:flex-row">
-      <div class="flex space-x-5 w-full md:w-2/3 pt-10 md:pt-0 md:pr-10">
-        <span class="w-10 h-10 md:w-20 md:h-20 flex-shrink-0 text-orange-500">
-          <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-          </svg>
-        </span>
-        <div>
-          <span class="text-2xl md:text-4xl text-gray-800 block mt-1 md:mt-5">More than ten years in repair<br>and mantanance service</span>
-          <div class="mt-5 space-y-5">
-            <p class="text-lg text-gray-600">Hey you guys are being real mature. Okay, okay you guys, oh ha ha ha very funny.  Because, you might regret it later in life. Oh, uh, hey you, get your damn hands off her. Do you really think I oughta swear? Who the hell is John F. Kennedy? My god, they found me. I don't know how but they found me. Run for it, Marty. My god, they found me. I don't know how but they found me. Run for it, Marty.</p>
-            <p class="text-lg text-gray-600">Save the clock tower. Whoa, they really cleaned this place up, looks brand new. Working. Erased from existence. Mom, is that you?</p>
+      <div class="relative max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+        <div class="max-w-lg sm:max-w-2xl">
+          <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+            <span class="block text-white leading-none">Motorcycle repair <span class="text-orange-200">and customization</span></span>
+          </h1>
+          <p class="mt-6 text-xl text-white">Bear with me, Marty, all of your questions will be answered. Roll tape, we'll proceed. You bet. You'll find out. Watch this. Not me, the car, the car. My calculations are correct, when this baby hits eighty-eight miles.</p>
+          <div class="mt-10">
+            <a href="#" class="px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-600 hover:bg-orange-700 sm:px-8">Contact us</a>
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/3">
-        <div class="w-full h-auto overflow-hidden rounded-lg shadow-xl">
-          <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1578474005126-89909099fed6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="People working on laptops">
+    </section>
+    <!-- SERVICES:Start ---------------------- -->
+    <section class="w-full p-5 max-w-7xl mx-auto">
+      <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">Services</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14 sm:gap-10">
+        <div>
+          <h3 class="space-y-3">
+            <span class="w-8 h-8 flex items-center justify-center rounded-full bg-orange-600">
+              <span class="w-4 h-4 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 234.87 234.87" style="enable-background:new 0 0 234.866 234.866" xml:space="preserve">
+                  <path d="M218.33 16.57A56.07 56.07 0 0 0 178.42.04a56.07 56.07 0 0 0-39.91 16.54c-22.01 22-22 57.8 0 79.82a56.44 56.44 0 0 0 16.46 11.4c.86.35 1.7.75 2.58 1.07.16.06.3.16.46.23a56.38 56.38 0 0 0 60.32-12.7 56.06 56.06 0 0 0 16.53-39.91 56.08 56.08 0 0 0-16.53-39.91zm-7.21 51.46L189.96 89.2a5.38 5.38 0 0 1-5.2 1.39l-28.89-7.74a5.38 5.38 0 0 1-3.8-3.8l-7.73-28.9a5.37 5.37 0 0 1 1.4-5.19l21.14-21.15a5.37 5.37 0 0 1 5.2-1.4l28.89 7.74a5.4 5.4 0 0 1 3.8 3.8l7.74 28.9a5.37 5.37 0 0 1-1.4 5.2z"/>
+                  <path d="m172.29 33.59-16.76 16.77 6.13 22.89 22.9 6.14 16.76-16.76-6.14-22.91zM20.35 211.87c-.41 0-1.22.1-1.9.78a2.69 2.69 0 1 0 1.9-.79z"/>
+                  <path d="M128.84 103.22a66.18 66.18 0 0 1-10.56-13.77L3.65 204.08c-.13.39-.31.76-.54 1.1a19.28 19.28 0 0 0 2.5 24.11c6.31 6.3 16.78 7.35 24.17 2.48.34-.22.7-.4 1.09-.55l1.87-1.86a.76.76 0 0 1 .07-.07l.07-.07 113.44-113.44a66.09 66.09 0 0 1-17.48-12.56zM29.86 224.06a13.39 13.39 0 0 1-9.51 3.93c-3.59 0-6.96-1.4-9.5-3.93a13.46 13.46 0 0 1-.01-19c5.1-5.1 13.94-5.08 19-.01a13.45 13.45 0 0 1 .02 19z"/>
+                </svg>
+              </span>
+            </span>
+            <span class="block text-gray-800 text-xl lg:text-2xl font-semibold">Full-service Motorcycle Maintanance</span>
+          </h3>
+          <p class="text-lg mt-4 text-gray-600">Right, I got it. Right check, Doc. I guess you guys for that yet. But your kids are gonna love it.</p>
+          <ul class="mt-8 space-y-4">
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">Well, good luck you guys.</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">I almost forgot, Jennifer Parker called.</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">Well, they're bigger than me.</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="space-y-3">
+            <span class="w-8 h-8 flex items-center justify-center rounded-full bg-orange-600">
+              <span class="w-4 h-4 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 512.01 512.01" style="enable-background:new 0 0 512.007 512.007" xml:space="preserve">
+                  <path d="m280.1 43 43-43L512 188.9l-43 43zM256.8 66.31l-87.21 87.22 62.75 62.75L66.98 381.65a65.04 65.04 0 0 0-47.9 19.03 65.3 65.3 0 0 0 0 92.25 65.03 65.03 0 0 0 46.12 19.08c16.7 0 33.41-6.36 46.13-19.08a65.04 65.04 0 0 0 19.03-47.9l165.37-165.36 62.75 62.75 87.22-87.21L256.8 66.3zM88.03 469.63a32.32 32.32 0 0 1-45.66 0 32.32 32.32 0 0 1 0-45.65 32.18 32.18 0 0 1 22.83-9.44c8.27 0 16.53 3.15 22.83 9.44a32.32 32.32 0 0 1 0 45.65zm234.73-256.27a17.05 17.05 0 1 1-24.11-24.1 17.05 17.05 0 0 1 24.11 24.1z"/>
+                </svg>
+              </span>
+            </span>
+            <span class="block text-gray-800 text-xl lg:text-2xl font-semibold">Engine Work and Rebuilds</span>
+          </h3>
+          <p class="text-lg mt-4 text-gray-600">What, well you mean like a date? Brown, Brown, Brown, Brown, Brown, great, you're alive.</p>
+          <ul class="mt-8 space-y-4">
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">That's George McFly? Believe me, Marty.</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">Doc, look, all we need is a little plutonium.</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">Pretty Mediocre photographic fakery.</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="space-y-3">
+            <span class="w-8 h-8 flex items-center justify-center rounded-full bg-orange-600">
+              <span class="w-4 h-4 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 479.79 479.79" style="enable-background:new 0 0 479.79 479.79" xml:space="preserve">
+                  <path d="M478.4 116.62a11.01 11.01 0 0 0-18.76-6.85l-62.02 62.01-68.74-21.77-21.77-68.74 62.01-62.02A11.02 11.02 0 0 0 362.27.48a127.38 127.38 0 0 0-101.25 36.88c-36.54 36.55-46.22 89.92-29.08 135.4a93.82 93.82 0 0 0-5.55 5.06l-207 195.33-.23.22a62.52 62.52 0 0 0 0 88.31c24.35 24.34 63.67 24.05 88.02-.3l.3-.3L301.1 252.46a73.12 73.12 0 0 0 4.95-5.54c45.5 17.17 98.9 7.52 135.48-29.05a127.42 127.42 0 0 0 36.88-101.25zM75.99 435.38a22.96 22.96 0 1 1-32.47-32.47 22.96 22.96 0 0 1 32.47 32.47z"/>
+                </svg>
+              </span>
+            </span>
+            <span class="block text-gray-800 text-xl lg:text-2xl font-semibold">Motorcycle Customization</span>
+          </h3>
+          <p class="text-lg mt-4 text-gray-600">So anyway, George, now Lorraine, she really likes you. She told me to tell you that she wants.</p>
+          <ul class="mt-8 space-y-4">
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">Sorry about your barn. Uh.</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="w-6 h-6 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <span class="text-gray-600 text-lg">What do kids do in the fifties.</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              
+              <span class="text-gray-600 text-lg">Marty, why are you so nervous.</span>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="w-full p-5 max-w-7xl mx-auto py-10 md:py-16">
-    <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">Testimonials</h2>
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
-        <div>
-          <svg class="-translate-x-3 -translate-y-2 h-8 w-8 lg:h-12 lg:w-12 text-orange-600" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-          </svg>
-          <div class="text-2xl lg:text-3xl text-gray-600 space-y-5 leading-relaxed lg:leading-relaxed">
-            <p>I'm writing this down, this is good stuff. Hey Biff, check out this guy's life preserver, dork thinks he's gonna drown. Hey man, look at Marvin's hand.</p>
+    </section>
+    <!-- ABOUT:Start ---------------------- -->
+    <section class="w-full p-5 max-w-7xl mx-auto">
+      <h2 class="sr-only">About</h2>
+      <div class="flex flex-wrap flex-col-reverse md:flex-row">
+        <div class="flex space-x-5 w-full md:w-2/3 pt-10 md:pt-0 md:pr-10">
+          <span class="w-10 h-10 md:w-20 md:h-20 flex-shrink-0 text-orange-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </span>
+          <div>
+            <span class="text-2xl md:text-4xl text-gray-800 block mt-1 md:mt-5">More than ten years in repair<br>and mantanance service</span>
+            <div class="mt-5 space-y-5">
+              <p class="text-lg text-gray-600">Hey you guys are being real mature. Okay, okay you guys, oh ha ha ha very funny.  Because, you might regret it later in life. Oh, uh, hey you, get your damn hands off her. Do you really think I oughta swear? Who the hell is John F. Kennedy? My god, they found me. I don't know how but they found me. Run for it, Marty. My god, they found me. I don't know how but they found me. Run for it, Marty.</p>
+              <p class="text-lg text-gray-600">Save the clock tower. Whoa, they really cleaned this place up, looks brand new. Working. Erased from existence. Mom, is that you?</p>
+            </div>
           </div>
-          <span class="text-sm text-gray-500 block mt-2">&mdash; Marty</span>
         </div>
-        <div>
-          <svg class="-translate-x-3 -translate-y-2 h-8 w-8 lg:h-12 lg:w-12 text-orange-600" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-          </svg>
-          <div class="text-2xl lg:text-3xl text-gray-600 space-y-5 leading-relaxed lg:leading-relaxed">
-            <p>How else do you explain that wreck out there? The keys are in the trunk. Re-elect Mayor Goldie Wilson.</p>
+        <div class="w-full md:w-1/3">
+          <div class="w-full h-auto overflow-hidden rounded-lg shadow-xl">
+            <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1578474005126-89909099fed6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="People working on laptops">
           </div>
-          <span class="text-sm text-gray-500 block mt-2">&mdash; Stella</span>
         </div>
       </div>
-  </section>
-  <section class="w-full max-w-7xl mx-auto columns-2 md:columns-3 gap-1 space-y-1 py-10">
-    <img src="https://images.unsplash.com/photo-1581858544302-c40e2254ff87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
-    <img src="https://images.unsplash.com/photo-1589461440700-e0b11af450f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&h=535&q=60" alt="">
-    <img src="https://images.unsplash.com/photo-1549636367-13c144c47063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
-    <img src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60&h=535" alt="">
-    <img src="https://images.unsplash.com/photo-1596894573290-80f98cee5267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1vdG9yY3ljbGUlMjBnYXJhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="">
-    <img src="https://images.unsplash.com/photo-1618783129985-dd97dbe4ad99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdG9yY3ljbGUlMjBnYXJhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="">
-  </section>
-  <section class="w-full p-5 max-w-7xl mx-auto py-10 md:py-16">
-    <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">Contact</h2>
-  </section>
+    </section>
+    <!-- TESTIMONIALS:Start ---------------------- -->
+    <section class="w-full p-5 max-w-7xl mx-auto">
+      <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">Testimonials</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+          <div>
+            <svg class="-translate-x-3 -translate-y-2 h-8 w-8 lg:h-12 lg:w-12 text-orange-600" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+            </svg>
+            <div class="text-2xl lg:text-3xl text-gray-600 space-y-5 leading-relaxed lg:leading-relaxed">
+              <p>I'm writing this down, this is good stuff. Hey Biff, check out this guy's life preserver, dork thinks he's gonna drown. Hey man, look at Marvin's hand.</p>
+            </div>
+            <span class="text-sm text-gray-500 block mt-2">&mdash; Marty</span>
+          </div>
+          <div>
+            <svg class="-translate-x-3 -translate-y-2 h-8 w-8 lg:h-12 lg:w-12 text-orange-600" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+            </svg>
+            <div class="text-2xl lg:text-3xl text-gray-600 space-y-5 leading-relaxed lg:leading-relaxed">
+              <p>How else do you explain that wreck out there? The keys are in the trunk. Re-elect Mayor Goldie Wilson.</p>
+            </div>
+            <span class="text-sm text-gray-500 block mt-2">&mdash; Stella</span>
+          </div>
+        </div>
+    </section>
+    <!-- GALLERY:Start ---------------------- -->
+    <section class="w-full max-w-7xl mx-auto columns-2 md:columns-3 gap-1 space-y-1">
+      <h2 class="sr-only">Photo Gallery</h2>
+      <img src="https://images.unsplash.com/photo-1581858544302-c40e2254ff87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1589461440700-e0b11af450f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&h=535&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1549636367-13c144c47063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW90b3JjeWNsZSUyMGdhcmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60&h=535" alt="">
+      <img src="https://images.unsplash.com/photo-1596894573290-80f98cee5267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1vdG9yY3ljbGUlMjBnYXJhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1618783129985-dd97dbe4ad99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdG9yY3ljbGUlMjBnYXJhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="">
+    </section>
+    <section class="w-full p-5 max-w-7xl mx-auto">
+      <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-800 font-semibold mb-10">Contact</h2>
+    </section>
+  </main>
 </body>
 </html>
