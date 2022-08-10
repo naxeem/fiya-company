@@ -2,7 +2,7 @@
 
 FIYA Single page company profile website layout built using Tailwindcss.
 
-![Fiya template preview](https://raw.githubusercontent.com/naxeem/fiya-company/master/preview.png)
+![Fiya template preview](https://raw.githubusercontent.com/naxeem/fiya-company/master/preview.jpg)
 
 
 ## Installation
@@ -11,7 +11,7 @@ FIYA Single page company profile website layout built using Tailwindcss.
 npm install
 ```
 
-## Build tailwind
+## Tailwind
 
 ```bash
 npm run watch
